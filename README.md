@@ -40,33 +40,23 @@ DAX.
 - North America and Europe experienced the highest concentration of reported cases.
   
 ## Challenges Encountered
-- Data Structure
-
-The dataset was initially stored in a wide format with dates as columns.
+1. Data Structure. The dataset was initially stored in a wide format with dates as columns.
 
 - Solution: Unpivoted date columns using Power Query.
 
-- Dataset Integration
-
-Confirmed, Deaths, and Recovered datasets were stored separately.
+2. Dataset Integration. Confirmed, Deaths, and Recovered datasets were stored separately.
 
 - Solution: Merged datasets using common keys and validated matching records.
 
-- Cumulative Metrics
-
-Confirmed and Death values were cumulative.
+3. Cumulative Metrics. Confirmed and Death values were cumulative.
 
 - Solution: Created Latest measures instead of summing cumulative values.
 
-- Recovery Data Quality
-
-Recovery data contained inconsistencies and missing values.
+4. Recovery Data Quality. Recovery data contained inconsistencies and missing values.
 
 - Solution: Excluded recovery-based KPIs from final analysis.
 
-- Outlier Death Rates
-
-Some countries showed unrealistic mortality rates due to very small case counts.
+5. Outlier Death Rates. Some countries showed unrealistic mortality rates due to very small case counts.
 
 - Solution: Treated as source-data limitations and interpreted results cautiously.
 
