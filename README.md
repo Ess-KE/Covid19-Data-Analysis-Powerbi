@@ -10,9 +10,9 @@ https://github.com/CSSEGISandData/COVID-19
 
 ## Datasets Used:
 
-Confirmed Cases
-Death Cases
-Recovered Cases
+Confirmed Cases,
+Death Cases,
+Recovered Cases.
 
 ## Objectives
 - Analyze global COVID-19 impact
@@ -72,23 +72,18 @@ Some countries showed unrealistic mortality rates due to very small case counts.
 
 ## Dashboard Screenshots
 
-(Insert screenshots here)
+- <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Executive%20Summary.jpeg"> View Executive Summary</a>
 
-Executive Summary
+- <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Trend%20Analysis.jpeg"> View Trend Analysis</a>
 
-[Insert Image]
+## Files Included
+- <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Covid.pbix">COVID19_Dashboard.pbix</a>
 
-Trend Analysis
+- <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/COVID-19%20Global%20Analysis%20%20Presentation.pptx">COVID19_Project_Presentation.pptx</a>
 
-[Insert Image]
-
-Files Included
-COVID19_Dashboard.pbix
-COVID19_Project_Presentation.pptx
-README.md
-What I Learned
-Data cleaning and transformation using Power Query
-Time intelligence using Calendar tables and DAX
-Year-over-Year growth calculations
-Dashboard design and storytelling
-Data validation and quality assessment
+## Skills Applied
+- Data cleaning and transformation using Power Query
+- Time intelligence using Date tables and DAX
+- Year-over-Year growth calculations
+- Dashboard design and storytelling
+- Data validation and quality assessment
