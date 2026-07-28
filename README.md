@@ -1,0 +1,94 @@
+# COVID-19 Global Dashboard Analysis | Power BI
+
+## Project Overview
+
+This project analyzes global COVID-19 trends using Power BI. The dashboard provides insights into confirmed cases, deaths, mortality rates, geographic distribution, and year-over-year growth patterns across 201 countries.
+
+## Dataset source:
+
+https://github.com/CSSEGISandData/COVID-19
+
+## Datasets Used:
+
+Confirmed Cases
+Death Cases
+Recovered Cases
+
+## Objectives
+- Analyze global COVID-19 impact
+- Identify countries most affected
+- Track case and death trends over time
+- Measure pandemic growth using Year-over-Year analysis
+- Build an interactive dashboard for decision-making
+
+## Tools Used
+Power BI,
+Power Query,
+DAX.
+
+## Key KPIs
+- Total Confirmed Cases
+- Total Deaths
+- Death Rate (%)
+- Countries Affected
+
+## Key Insights
+- Over 677 million confirmed cases and 7 million deaths were recorded globally.
+- The United States reported the highest number of confirmed cases and deaths.
+- COVID-19 growth peaked between 2020 and 2021 before slowing significantly.
+- Global death rates declined from approximately 3.1% in 2020 to 1.0% in 2023.
+- North America and Europe experienced the highest concentration of reported cases.
+  
+## Challenges Encountered
+- Data Structure
+
+The dataset was initially stored in a wide format with dates as columns.
+
+- Solution: Unpivoted date columns using Power Query.
+
+- Dataset Integration
+
+Confirmed, Deaths, and Recovered datasets were stored separately.
+
+- Solution: Merged datasets using common keys and validated matching records.
+
+- Cumulative Metrics
+
+Confirmed and Death values were cumulative.
+
+- Solution: Created Latest measures instead of summing cumulative values.
+
+- Recovery Data Quality
+
+Recovery data contained inconsistencies and missing values.
+
+- Solution: Excluded recovery-based KPIs from final analysis.
+
+- Outlier Death Rates
+
+Some countries showed unrealistic mortality rates due to very small case counts.
+
+- Solution: Treated as source-data limitations and interpreted results cautiously.
+
+## Dashboard Screenshots
+
+(Insert screenshots here)
+
+Executive Summary
+
+[Insert Image]
+
+Trend Analysis
+
+[Insert Image]
+
+Files Included
+COVID19_Dashboard.pbix
+COVID19_Project_Presentation.pptx
+README.md
+What I Learned
+Data cleaning and transformation using Power Query
+Time intelligence using Calendar tables and DAX
+Year-over-Year growth calculations
+Dashboard design and storytelling
+Data validation and quality assessment
