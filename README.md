@@ -70,6 +70,12 @@ Some countries showed unrealistic mortality rates due to very small case counts.
 
 - Solution: Treated as source-data limitations and interpreted results cautiously.
 
+## Dashboard Preview
+<img width="1423" height="850" alt="image" src="https://github.com/user-attachments/assets/89b2b6b3-d1eb-4ad1-b01f-b42ca16e3875" />
+<img width="1422" height="844" alt="image" src="https://github.com/user-attachments/assets/b3f107b8-f8ad-436e-8b9c-698cbcb88bca" />
+
+
+
 ## Dashboard Screenshots
 
 - <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Executive%20Summary.jpeg"> View Executive Summary</a>
