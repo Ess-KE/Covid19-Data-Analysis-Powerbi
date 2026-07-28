@@ -64,14 +64,6 @@ DAX.
 <img width="1423" height="850" alt="image" src="https://github.com/user-attachments/assets/89b2b6b3-d1eb-4ad1-b01f-b42ca16e3875" />
 <img width="1422" height="844" alt="image" src="https://github.com/user-attachments/assets/b3f107b8-f8ad-436e-8b9c-698cbcb88bca" />
 
-
-
-## Dashboard Screenshots
-
-- <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Executive%20Summary.jpeg"> View Executive Summary</a>
-
-- <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Trend%20Analysis.jpeg"> View Trend Analysis</a>
-
 ## Files Included
 - <a href="https://github.com/Ess-KE/Covid19-Data-Analysis-Powerbi/blob/main/Covid.pbix">COVID19_Dashboard.pbix</a>
 
